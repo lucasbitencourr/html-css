@@ -1,0 +1,18 @@
+@font-face {
+    font-family:'DESIGNER';
+    src: url('fonts/DESIGNER.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Vogue';
+    src: url('fonts/Vogue.ttf') format('truetype');
+}
+*{
+    background-image: linear-gradient(to left, #7E83E6, #FFEDA6);
+}
+h1, h2 {
+    font-family: 'DESIGNER';
+}
+p
+{
+    font-family: 'Vogue';
+}

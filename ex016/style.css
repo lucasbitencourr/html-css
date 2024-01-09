@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Another Danger - Demo';
+    src: url(fontes/Another\ Danger\ -\ Demo.otf) format('opentype');
+}
+@charset "UTF=8"; 
+body{
+    background-image: linear-gradient(to left, hsl(120, 18%, 55%), hsl(209, 18%, 45%));
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1#principal {
+    background-color: #164416;
+    text-align: center;
+    color: white;
+    font-family:'Another Danger - Demo';
+    font-size: xx-large;
+}   
+h1 {
+   color: rgb(112, 196, 112); 
+}
+h2{
+    color: rgb(27, 78, 27);
+}
+.basico{
+    color: aqua;
+}
+.marcado {
+    color: #29e6ff;
+    text-decoration: underline;
+}
