@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+  /*  height: 100vh;
+    background-color: black;
+    background-image: url(https://png.pngtree.com/background/20230416/original/pngtree-website-geometric-figures-dark-background-picture-image_2443562.jpg );
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    */
+    /* 
+    SHORT HANDS BACKGROUD A ORDEM CORRETA
+    COLOR > IMAGE > POSITION > REPEAT > ATTACHMENT;
+    */
+    background: black url(https://png.pngtree.com/background/20230416/original/pngtree-website-geometric-figures-dark-background-picture-image_2443562.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+main {
+    background-color: white;
+    max-width: 400px;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid darkblue;
+    border-radius: 15px;
+}
