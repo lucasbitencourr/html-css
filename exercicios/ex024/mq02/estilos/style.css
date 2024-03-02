@@ -20,7 +20,7 @@ header > h1{
 }
 
 menu{
-    display: block;
+    display: none;
 }
 
 menu > ul{
@@ -40,6 +40,20 @@ menu > ul > li > a{
 menu > ul > li > a:hover {
     background-color: grey;
     transition: 1.5s;
+}
+
+#burger{
+    background-color: rgb(47, 47, 47);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#burger:hover{
+    background-color: white;
+    color: black;
 }
 
 main {
